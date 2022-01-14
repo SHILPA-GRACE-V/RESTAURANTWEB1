@@ -1,0 +1,60 @@
+<div class="container-fluid aboutUsContainer">
+
+	<h1 class="aboutText">About Us</h1>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			
+			<div class="aboutLeft">
+
+				<div class="aboutText">
+					<p>India represents one of the oldest continuous civilization in human history, dating back 3300 BCE. It is ever-evolving and continues to do so today.  It is the largest democracy with over a billion people, numerous religions, languages and subcultures. Indian cuisine is anything but homogenous! Regions and religions make up a large portion of the cultural fabric of the food. The 21st century globalization has made all sorts of ingredients and techniques available to the Chefs in India. Today India produces more culinary graduates than any other country. They are full of creative energy and looking to the rest of the world to spice-up new ingredients to ‘Indianize’ them  that’s where we come…
+
+						America is a melting pot like India was over a 1000 years ago. Being in the US offers a chef a lot of exciting possibilities to play with the ingredients that are not commonly found in India. We are availing these opportunities to create an exciting menu that has a blend of traditional favorites like Chicken Tikka Masala and creative dishes like Bengal Fish Curry (made with Salmon that is not usually found in India). The goal is to present a creative, fresh, nutritious, tasty, flavorful and a balanced meal. Like the 21st century India, we are progressive with our cuisine and not bound by the ‘same-old’ mentality.</p>
+				</div>
+
+				<div class="aboutInternalLinks">
+					<a ng-href="#!/menu">
+						<span class="aboutMenuButton">
+							<span class="aboutMenuLink">
+								See our menu
+							</span>
+						</span>
+					</a>
+
+					<a ng-href="#!/booking">
+						<span class="aboutBookingButton">
+							<span class="aboutBookingLink">
+								Book a meal
+							</span>
+						</span>
+					</a>
+					
+				</div>
+				
+				<div class="aboutReviws">
+					<div class="aboutReviewsTitle">
+						<h2>Recent Reviews</h2>
+					</div>
+					
+					<div ng-repeat="item in reviews">
+
+					<div class="reviewContainer">
+						
+						<div class="reviewImg">
+							<img ng-src="{{item.profile_photo_url}}" alt="">
+								<span class="aboutAuthorName">{{item.author_name}}</span>
+						</div>
+						
+						<div class="reviewText">
+							<span>{{item.text}}</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</div>

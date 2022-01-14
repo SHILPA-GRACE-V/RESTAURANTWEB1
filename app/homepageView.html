@@ -1,0 +1,56 @@
+<div class="parallax">
+	<div class="homeText">
+		<div class="name">
+			<div class="caption">
+				<span class="homeResturantName">JS</span>
+			</div>
+
+		</div>
+		<div>
+			<span class="homeDescription">Indian Dishes 
+		</div>
+		<div class="homeDownButton">
+			<!-- TODO: moveup in controller -->
+			<a id="moveup"><img src="assets/img/downIcon.png" alt="" class="downButton"></a>
+		</div>
+	</div>
+</div>
+
+<div class="homeBottomSection">
+	<!-- TODO: TABS FROM CONTROLLER -->
+	<div class="row" id="tabs">
+
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 topLeft">
+			<img src="assets/img/logo.jpg" alt="logo" class="logoDescription">	
+		</div>
+
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 topRight">
+			<!-- <img src="assets/img/dish1.jpg" alt="img" class="dish1"> -->
+		</div>
+	</div>
+
+	<div class="row">
+
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bottomLeft">
+			<!-- <img src="assets/img/dish2.jpg" alt="img" class="dish2"> -->
+		</div>
+
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 bottomRight">
+			
+			<div class="row mapContact">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251473.6967938029!2d76.39270047153887!3d9.994002769357971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b086d8a18657103%3A0xa712ac882fa0ff4d!2sINDIAN%20Food%20Court!5e0!3m2!1sen!2sin!4v1641980924869!5m2!1sen!2sin" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<span>Opening Hours:</span>
+					<p>{{openHours}}</p>
+					<p class="openNow">{{checkLocalTime}}</p>
+					<span>Phone:</span>
+					<p>{{phoneNumber}}</p>
+					<a href="https://www.facebook.com"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>

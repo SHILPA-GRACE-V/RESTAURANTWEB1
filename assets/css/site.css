@@ -1,0 +1,286 @@
+/*Collection of fonts being bought in from Google Fonts*/
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Space Mono', monospace;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/*HOMEPAGE STYLEING*/
+
+/*Parallax IMAGE + TEXT*/
+/*Sets Parallax Img*/
+.parallax {
+	margin-top: 50px;
+	width: 100%;
+  /* The image used */
+  background-image: url("parallaxImg.jpg");
+  /* Set a specific height */
+  min-height: 850px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*The text div ontop of the parallax image*/
+.homeText {
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+}
+
+/*Hanoi on homepage*/
+.homeResturantName {
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+    font-size: 17vw;
+}
+
+/*Text over parallax image under Hanoi*/
+.homeDescription {
+  background-color: #111;
+  color: #fff;
+  padding: 10px;
+  font-size: 4vw;
+}
+
+/*Down image under Text description*/
+.downButton {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+
+/*Homepage Bottom text & images*/
+
+/*Adds shadow to and defines hight of bottom part of the page*/
+.homeBottomSection{
+  -webkit-box-shadow: -2px -2px 9px #C0C0C0;
+  -moz-box-shadow: -2px -2px 9px #C0C0C0;
+  box-shadow: -2px -2px 9px #C0C0C0;
+	height:860px;
+}
+
+/*Sets each box to a square*/
+.topLeft, .topRight, .bottomLeft, .bottomRight {
+	height:430px;
+}
+
+.topLeft {
+	text-align: center;
+}
+
+/*Logo in the top left box*/
+.logoDescription {
+	width: 220px;
+	height: 220px;
+}
+
+.topRight {
+  background-image: url('dish1.jpg');
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottomLeft {
+	background-image: url('dish2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* MAP AND OPENING BOX*/
+.bottomRight {
+  text-align: center;
+}
+/*Google maps API GET*/
+.mapContact {
+  margin-top: 10%;
+}
+
+/*OPEN NOW from scope*/
+.openNow {
+  font-weight: bold;
+  color:green;
+}
+
+.box {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/*ABOUT US PAGE*/
+
+/*The main page container*/
+.aboutUsContainer {
+  margin-top: 50px;
+  background-color: #6dc3e6;
+}
+
+/*about us text, buttons, reviews*/
+.aboutLeft {
+  font-family: 'Space Mono', monospace;
+  text-shadow: 1px 1px 0px #000000;
+  color: #f1c40f;
+}
+
+/*Text at top of about*/
+.aboutUsContainer {
+  text-align: center;
+}
+
+.aboutText {
+  font-size: 24px;
+  color: black;
+  text-shadow: 1px 1px 0px #000000;
+}
+
+/*Link buttons*/
+.aboutInternalLinks {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.aboutInternalLinks > div {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  text-align: center;
+}
+
+.aboutMenuButton, .aboutBookingButton{
+  background-color: #111;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+/*Link buttons styling*/
+.aboutInternalLinks > a {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+/* unvisited link */
+.aboutInternalLinks >  a:link {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.aboutInternalLinks > a:hover {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.reviewContainer {
+  margin-bottom: 25px;
+}
+.reviewImg, .reviewAuthor, .reviewText {
+  text-align: left;
+}
+
+.aboutAuthorName {
+  font-size: 24px;
+}
+
+.reviewText {
+  font-size: 18px;
+}
+
+.reviewImg > img{
+  width: 75px;
+  height: 75px;
+}
+
+/* MENU PAGE */
+
+.hanoiMenu {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Booking Page */
+
+.bookingContainer {
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+  text-shadow: 1px 1px 0px #000000;
+  background-color: #C0C0C0;
+  min-height: 750px;
+}
+
+.bookingForm {
+  margin-top: 50px;
+  margin-left: 25px;
+  width: 500px;
+  max-width: 85%;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-box-shadow: 2px 2px 9px #000000;
+  -moz-box-shadow: 2px 2px 9px #000000;
+  box-shadow: 2px 2px 9px #000000;
+  border: 0px solid #000000;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(100, 230, 122);
+  color: black;
+}
+
+.bookingForm {
+  font-size: 2.5vw;
+}
+
+.formTopRow {
+  margin-bottom: 5px;
+}
+
+.customerName {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.custDate {
+  margin-right: 100px;
+}
+
+.formNumOfDiners {
+  font-size: 3vw;
+}
+
+.minus {
+  margin-right: 5px;
+}
+
+.plus {
+  margin-left: 5px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*FOOTER*/
+footer {
+  margin-top: 15px;
+}
